@@ -1,0 +1,217 @@
+/* Reset CSS */
+* {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-size: 100%;
+   vertical-align: baseline;
+   box-sizing: border-box;
+}
+
+/* Estilos generales del cuerpo */
+body {
+   text-align: center;
+   font-family: sans-serif;
+   color: #2cb027;
+   background: #f4f4f4;
+   padding-top: 63px; /* Para evitar que el contenido quede oculto detrás del encabezado fijo */
+}
+
+/* Encabezado fijo */
+.head {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   height: 63px;
+   background: rgba(23, 23, 23, 0.9);
+   position: fixed;
+   width: 100%;
+   z-index: 100;
+   padding: 0 20px;
+   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Sección del encabezado */
+.header {
+   height: 60vh;
+   background: url('sumasphp/img/Imagen123.jpg') no-repeat center;
+   background-size: cover;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+/* Título principal */
+.title {
+   margin-bottom: 40px;
+   font-size: 60px;
+   font-weight: 600;
+   text-transform: uppercase;
+   color: #fff;
+}
+
+@media (max-width: 768px) {
+   .title {
+       margin-bottom: 0;
+       font-size: 40px;
+   }
+}
+
+/* Contenedor de contenido principal */
+.content {
+   height: 50vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+}
+
+/* Estilos de la sección sau */
+.sau {
+   padding: 30px;
+   background: #1f1d1d;
+}
+
+/* Contenedor de las cajas */
+.box-container {
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   text-align: center;
+}
+
+.box {
+   height: 11rem;
+   width: 17rem;
+   background: #101010;
+   text-align: center;
+   border-radius: 1rem;
+   box-shadow: 0 0.3rem 5rem rgba(0, 0, 0, 0.5);
+   margin: 2rem;
+   padding: 1rem;
+}
+
+/* Estilos para las imágenes */
+.box img {
+   max-width: 50%;
+   max-height: 100px;
+   margin-bottom: 15px;
+}
+
+/* Estilos para los iconos */
+.box i {
+   height: 3rem;
+   width: 3rem;
+   line-height: 3rem;
+   text-align: center;
+   border-radius: 50%;
+   color: #fff;
+   background: #9c27b0;
+   font-size: 2rem;
+   margin: 1rem 0;
+}
+
+/* Estilos para los títulos */
+.box h3 {
+   font-size: 20px;
+   color: #9c27b0;
+}
+
+/* Estilos para los párrafos */
+.box p {
+   padding: 0 15px;
+   font-size: 16px;
+   color: #ddd;
+}
+
+/* Botones */
+.onebtn, .btn, .numer, .botonmapa {
+   display: inline-block;
+   margin-top: 15px;
+   padding: 10px 20px;
+   border: 2px solid;
+   background: #a37334;
+   border-radius: 30px;
+   color: #fff;
+   text-decoration: none;
+   transition: background 0.3s ease, color 0.3s ease;
+}
+
+.onebtn {
+   border-color: #ae470f;
+}
+
+.btn {
+   border-color: #be21da;
+}
+
+.btn:hover, .numer:hover, .botonmapa:hover {
+   background: none;
+   color: #a37334;
+}
+
+.numer {
+   border-color: #be21da;
+}
+
+.botonmapa {
+   border-color: #bf72cc;
+   border-radius: 20px;
+}
+
+/* Contenedor de botones en el home */
+.btn-home {
+   display: flex;
+   justify-content: center;
+}
+
+.btn-home a {
+   margin: 0 10px;
+}
+
+/* Secciones adicionales */
+.about, .contente, .boton1, .lele {
+   background: #171717;
+   color: #fff;
+   padding: 20px;
+}
+
+.price {
+   display: flex;
+   background: url('img/Imagen123.jpg') no-repeat center;
+   background-attachment: fixed;
+   background-size: cover;
+   text-align: center;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   color: #fff;
+}
+
+.contact {
+   padding: 50px 20px;
+   background: #171717;
+}
+
+.lala {
+   display: flex;
+   padding: 10px;
+   color: #0d0e0e;
+}
+
+@media (max-width: 768px) {
+   .sau {
+       height: auto;
+   }
+   .navbar {
+       display: none;
+   }
+}
+
+/* Estilos para los párrafos */
+p {
+   margin-bottom: 40px;
+   font-size: 18px;
+   color: #d81414;
+}
